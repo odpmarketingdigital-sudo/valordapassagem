@@ -39,7 +39,10 @@ export default function HomePage() {
                 Consulte preços médios, empresas, tempo de viagem e dicas para
                 economizar. Compare e compre nas melhores plataformas parceiras.
               </p>
-              <a class="inline-flex  items-center gap-2 rounded-lg bg-primary px-6 py-3 font-semibold text-white hover:bg-primary/90 transition-colors" href="#popular-routes-heading">
+              <a
+                className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 font-semibold text-white hover:bg-primary/90 transition-colors"
+                href="#popular-routes-heading"
+              >
                 Ver todas as rotas
               </a>
               <div className="flex flex-wrap gap-4 text-sm" style={{display: 'none'}}>

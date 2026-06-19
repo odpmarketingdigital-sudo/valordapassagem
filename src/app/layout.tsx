@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -33,6 +34,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${inter.variable} h-full`}>
       <head>
+        <GoogleAnalytics />
         <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
       </head>
       <body className="min-h-full flex flex-col antialiased">
