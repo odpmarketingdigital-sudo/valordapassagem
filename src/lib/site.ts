@@ -41,7 +41,7 @@ export const RECOMMENDED_PARTNERS = [
     name: "Wemobi",
     slug: "wemobi",
     description: "Passagens de ônibus com opções de parcelamento.",
-    url: "https://www.wemobi.com.br",
+    url: "https://www.wemobi.me",
     highlight: false,
   },
 ] as const;
