@@ -6,7 +6,7 @@ export const SITE = {
     "Consulte preços médios, empresas, tempo de viagem e dicas para passagens de ônibus no Brasil. Compare e compre nas melhores plataformas parceiras.",
   locale: "pt_BR",
   language: "pt-BR",
-  email: "contato@valordapassagem.com.br",
+  email: "vdp@odpdigital.com.br",
   colors: {
     primary: "#2563eb",
     primaryDark: "#1e3a8a",
