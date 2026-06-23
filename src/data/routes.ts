@@ -316,11 +316,11 @@ export const routes: Route[] = [
     precoMax: 520,
     duracao: "6h a 7h",
     distancia: 558,
-    empresas: ["Cometa", "Expresso Adamantina", "Kaissara"],
+    empresas: ["Andorinha"],
     faq: [
       {
         q: "Qual o preço da passagem de ônibus de Presidente Prudente para São Paulo?",
-        a: "O preço varia de R$ 95 a R$ 160 para a passagem de ônibus de Presidente Prudente para São Paulo.",
+        a: "O preço varia de R$ 205 a R$ 520 para a passagem de ônibus de Presidente Prudente para São Paulo.",
       },
       {
         q: "Quanto tempo dura a viagem de Presidente Prudente para São Paulo?",
@@ -328,7 +328,7 @@ export const routes: Route[] = [
       },
       {
         q: "Quais empresas operam de Presidente Prudente para São Paulo?",
-        a: "Cometa, Expresso Adamantina e Kaissara são as principais empresas nesta rota.",
+        a: "A Andorinha é a empresa que opera esta rota entre Presidente Prudente e São Paulo.",
       },
     ],
   },

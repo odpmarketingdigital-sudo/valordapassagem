@@ -90,6 +90,17 @@ export const companies: Company[] = [
     regions: ["Nordeste"],
     features: ["Ar-condicionado", "Banheiro"],
   },
+  {
+    slug: "andorinha",
+    name: "Andorinha",
+    description:
+      "Viação Andorinha com rotas entre o Nordeste e o Sudeste, oferecendo serviços convencionais, executivos e leito em viagens interestaduais.",
+    founded: 1988,
+    headquarters: "Fortaleza, CE",
+    website: "https://www.andorinha.com",
+    regions: ["Nordeste", "Sudeste"],
+    features: ["Ar-condicionado", "Wi-Fi", "Leito", "Semi-leito", "Banheiro", "Tomadas USB"],
+  },
 ];
 
 export function getCompanyBySlug(slug: string): Company | undefined {
