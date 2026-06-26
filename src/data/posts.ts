@@ -95,6 +95,119 @@ export const posts: Post[] = [
       "Dicas gerais: chegue com pelo menos 30 minutos de antecedência para embarque. Verifique o guichê e plataforma no bilhete. Terminais grandes têm mapas e totens de informação.",
     ],
   },
+  {
+    slug: "o-que-acontece-se-eu-perder-o-horario-do-onibus",
+    title: "O Que Acontece Se Eu Perder o Horário do Ônibus?",
+    description:
+      "Saiba o que fazer se perder o horário do ônibus: validade do bilhete, remarcação, taxas da ANTT e como solicitar reembolso.",
+    excerpt:
+      "Perdeu o horário? A passagem tem validade de um ano e você pode remarcar ou pedir reembolso — veja as regras da ANTT.",
+    datePublished: "2026-03-20",
+    category: "Guia",
+    readingTime: 4,
+    content: [
+      "Perdeu o horário? Respira fundo — a situação tem solução e a lei está do seu lado.",
+      "De acordo com as regras da Agência Nacional de Transportes Terrestres (ANTT), o bilhete de passagem tem validade de um ano a partir da data de emissão. Isso significa que, mesmo que você perca o embarque, sua passagem não vai para o lixo.",
+      "O passageiro pode solicitar a remarcação da viagem para outra data e horário, de acordo com a disponibilidade da empresa. O ponto de atenção está no prazo: se a remarcação for feita com menos de 3 horas de antecedência em relação ao horário original, ou se o passageiro simplesmente não comparecer ao embarque, a transportadora pode cobrar uma taxa de até 20% do valor da tarifa.",
+      "Portanto, se souber com antecedência que não vai conseguir embarcar, entre em contato com a empresa o quanto antes para remarcar sem custo. E se quiser desistir completamente da viagem, também é possível solicitar o reembolso — desde que o avise com pelo menos 3 horas de antecedência do horário de saída.",
+      "Dica prática: guarde sempre o bilhete (físico ou digital) e o comprovante de compra. Na dúvida, ligue para a central da empresa ou dirija-se ao guichê do terminal.",
+    ],
+  },
+  {
+    slug: "beneficios-para-pcd-em-viagens-de-onibus",
+    title: "Benefícios para PCD em Viagens de Ônibus: O Que Diz a Lei?",
+    description:
+      "Conheça os direitos de pessoas com deficiência no transporte rodoviário interestadual: Passe Livre, quem tem direito, como solicitar e como usar nas viagens.",
+    excerpt:
+      "Pessoas com deficiência têm direito ao Passe Livre interestadual. Saiba quem pode solicitar, documentos necessários e como usar o benefício.",
+    datePublished: "2026-03-20",
+    category: "Guia",
+    readingTime: 5,
+    content: [
+      "Pessoas com deficiência têm direitos importantes garantidos por lei no transporte rodoviário interestadual. Conheça o principal deles: o Passe Livre.",
+      "O que é o Passe Livre Interestadual? Instituído pela Lei nº 8.899/1994 e regulamentado pelo Decreto nº 3.691/2000, o Passe Livre é um programa do Governo Federal que garante gratuidade nas passagens de ônibus interestadual (além de trem e barco) para pessoas com deficiência comprovadamente carentes.",
+      "Quem tem direito? Pessoas com deficiência física, mental, visual, auditiva, doença renal crônica ou ostomia, desde que a renda familiar per capita seja de até um salário mínimo.",
+      "Como solicitar? O pedido é feito pelo portal gov.br, de forma 100% digital. Os documentos necessários são: documento de identificação com foto; atestado ou laudo médico assinado por especialista, comprovando a deficiência; e comprovante de renda familiar. Após a aprovação, a credencial é enviada ao beneficiário. A renovação pode ser feita a cada três anos.",
+      "Como usar nas viagens? Basta apresentar a carteira do Passe Livre junto com um documento de identidade no guichê de passagens, com pelo menos 3 horas de antecedência. Cada ônibus é obrigado a reservar 2 assentos para beneficiários do Passe Livre — e, havendo mais vagas disponíveis, a empresa não pode negar o embarque.",
+      "Se a empresa se recusar a conceder o benefício, ela é obrigada a emitir um documento informando data, hora, local e motivo da recusa. Nesse caso, registre uma reclamação junto à ANTT pelo telefone 166.",
+      "Atenção: a gratuidade vale apenas para o serviço convencional de ônibus. Não se aplica a serviços executivo, leito ou semi-leito.",
+    ],
+  },
+  {
+    slug: "bebe-paga-passagem-de-onibus",
+    title: "Bebê Paga Passagem de Ônibus? O Que Diz a Lei",
+    description:
+      "Criança pequena precisa de passagem de ônibus? Saiba o que diz a ANTT sobre gratuidade para bebês e crianças até 5 anos em viagens interestaduais.",
+    excerpt:
+      "Bebês e crianças até 5 anos incompletos não pagam passagem no colo do responsável. A partir dos 6 anos, a poltrona é obrigatória.",
+    datePublished: "2026-03-20",
+    category: "Guia",
+    readingTime: 4,
+    content: [
+      "Uma dúvida muito comum entre famílias que planejam viagens: criança pequena precisa de passagem? A resposta é não — até certa idade.",
+      "Segundo as regras da ANTT para o transporte interestadual, crianças com até 5 anos de idade incompletos (menos de 6 anos) têm direito à gratuidade, desde que viajem na mesma poltrona do responsável. Ou seja, o bebê ou a criança pequena fica no colo do adulto acompanhante, sem ocupar um assento separado.",
+      "A partir dos 6 anos, a criança já precisa de passagem própria e tem direito a uma poltrona individual.",
+      "E se os pais quiserem um assento separado para o bebê? Nesse caso, é necessário adquirir uma passagem normalmente para a poltrona extra, mesmo que a criança ainda seja bebê. A gratuidade só é garantida quando a criança viaja no colo do responsável.",
+      "Dica para viagens com crianças: leve sempre a certidão de nascimento ou outro documento que comprove a idade da criança; confirme as regras com a empresa no momento da compra, pois algumas viações podem ter políticas complementares; e, em caso de dúvidas ou negativa injustificada, acione a ANTT pelo telefone 166.",
+    ],
+  },
+  {
+    slug: "atraso-superior-a-1-hora-quais-sao-meus-direitos",
+    title: "Atraso Superior a 1 Hora: Quais São Meus Direitos?",
+    description:
+      "Saiba o que a ANTT garante ao passageiro em caso de atraso de ônibus superior a 1 hora: remarcação, troca de empresa, reembolso e alimentação.",
+    excerpt:
+      "Atraso de mais de 1 hora no ônibus? Você pode aguardar, trocar de empresa ou pedir reembolso integral. Veja todos os direitos.",
+    datePublished: "2026-03-20",
+    category: "Guia",
+    readingTime: 4,
+    content: [
+      "Atraso é uma das situações mais frustrantes para quem viaja. Mas saiba que a lei estabelece direitos claros para o passageiro quando isso acontece.",
+      "A partir de 1 hora de atraso: quando o ônibus atrasa mais de uma hora — seja no ponto de partida ou em uma parada ao longo do trajeto —, o passageiro pode escolher entre três opções: aguardar e continuar a viagem normalmente quando o ônibus sair; embarcar em outro ônibus de empresa equivalente, com o mesmo destino, sem custo adicional; ou desistir da viagem e receber de volta o valor integral da passagem imediatamente.",
+      "A partir de 3 horas de atraso (por responsabilidade da empresa): se o atraso for superior a 3 horas e a responsabilidade for da transportadora, o passageiro tem direito a alimentação fornecida pela empresa e hospedagem, se necessário (por exemplo, caso o ônibus só saia no dia seguinte).",
+      "O que fazer na prática? Guarde o bilhete e anote o horário previsto e o real de saída. Solicite à empresa uma declaração por escrito do atraso. Se seus direitos não forem respeitados, registre reclamação na ANTT pelo telefone 166 ou pelo site oficial.",
+      "Importante: a ANTT exige que o serviço seja prestado com pontualidade desde o início até o destino final. O atraso sem justificativa pode gerar penalidades para a empresa.",
+    ],
+  },
+  {
+    slug: "o-que-acontece-se-a-viagem-for-interrompida-durante-o-trajeto",
+    title: "O Que Acontece Se a Viagem For Interrompida Durante o Trajeto?",
+    description:
+      "Pane, acidente ou problema na estrada: saiba o que a empresa deve fazer e quais são os direitos do passageiro quando a viagem de ônibus é interrompida.",
+    excerpt:
+      "Viagem interrompida no meio do caminho? A empresa deve prestar assistência, oferecer outro veículo ou reembolso proporcional.",
+    datePublished: "2026-03-20",
+    category: "Guia",
+    readingTime: 4,
+    content: [
+      "Pane mecânica, acidente, problema na estrada… Situações inesperadas podem interromper uma viagem no meio do caminho. E aí, o que acontece com o passageiro?",
+      "A legislação é clara: a empresa de transporte tem a obrigação de prestar assistência imediata, eficiente e adequada em caso de qualquer interrupção durante o trajeto.",
+      "O que a empresa é obrigada a fazer: providenciar outro veículo para dar continuidade à viagem o mais rápido possível; fornecer assistência aos passageiros enquanto aguardam — incluindo alimentação e, se necessário, acomodação; e, em caso de acidente com vítimas, acionar os serviços de emergência e prestar o suporte necessário.",
+      "E se o passageiro não quiser esperar? Se a interrupção for prolongada e o passageiro optar por não aguardar, ele pode desistir da viagem e exigir o reembolso proporcional ao trecho não percorrido.",
+      "Bagagens e pertences: se a viagem for interrompida, a empresa também é responsável pela guarda e transporte das bagagens até o destino final ou até a devolução ao passageiro.",
+      "Como acionar seus direitos: guarde todos os comprovantes (bilhete, fotos, declarações da empresa); exija da empresa um posicionamento por escrito sobre a situação; e, em caso de descumprimento, registre ocorrência na ANTT (telefone 166) ou no Procon de sua cidade.",
+    ],
+  },
+  {
+    slug: "posso-viajar-de-onibus-com-animal-de-estimacao",
+    title: "Posso Viajar de Ônibus com Animal de Estimação?",
+    description:
+      "Saiba as regras da ANTT para viajar de ônibus com cães e gatos: documentação, caixa de transporte, limites de peso e políticas das empresas.",
+    excerpt:
+      "Sim, é possível viajar com pet no ônibus interestadual. Veja documentos exigidos, condições de transporte e regras para cão-guia.",
+    datePublished: "2026-03-20",
+    category: "Guia",
+    readingTime: 5,
+    content: [
+      "Boa notícia para quem não quer deixar o pet para trás: sim, é possível viajar de ônibus com animais de estimação — mas existem regras importantes a seguir.",
+      "Regras gerais da ANTT para viagens interestaduais: animais permitidos são cães e gatos de pequeno porte, com até 10 kg.",
+      "Documentação obrigatória: Atestado Sanitário para Trânsito de Cães e Gatos, emitido por veterinário credenciado ao CRMV, com no máximo 10 dias de antecedência em relação à viagem; e carteira de vacinação atualizada, com destaque para a vacina antirrábica e a polivalente.",
+      "Condições de transporte: o animal deve viajar dentro de uma caixa de transporte rígida (fibra de vidro ou material similar), de tamanho adequado. O recipiente deve ficar no interior do ônibus, próximo ao passageiro — nunca no bagageiro. Em geral, é necessário comprar uma passagem para o animal, que ocupa a poltrona ao lado do tutor. Algumas empresas limitam a 1 animal por passageiro e no máximo 2 por viagem.",
+      "Atenção às regras de cada empresa: as normas da ANTT estabelecem o mínimo obrigatório, mas cada viação pode ter exigências complementares — como sedação do animal, tamanho máximo da caixa de transporte ou políticas específicas de reserva. Consulte sempre a empresa antes de comprar a passagem.",
+      "E o cão-guia? O cão-guia, que acompanha pessoas com deficiência visual, tem regras específicas e diferenciadas. Ele pode viajar sem caixa de transporte e sem custo adicional, desde que apresentada a documentação comprobatória.",
+      "Onde comprar a passagem com pet? A compra de passagem para viagens com animais geralmente deve ser feita presencialmente no guichê da empresa, para controle e identificação. Verifique com antecedência!",
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

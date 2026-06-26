@@ -23,16 +23,16 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-primary-dark via-primary fd-topo to-blue-500 text-white">
-        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
+     {/* Hero */}
+     <section className="bg-gradient-to-br from-primary-dark via-primary fd-topo to-blue-500 text-white">
+        <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-6">
           <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
             <div>
               <div className="flex items-center gap-2 mb-4 text-blue-200 text-sm font-medium">
                 <Bus className="h-4 w-4" aria-hidden="true" />
                 <span>valordapassagem.com.br</span>
               </div>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-4">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight mb-4">
                 Preço de passagem de ônibus no Brasil
               </h1>
               <p className="text-blue-100 text-lg leading-relaxed mb-6">
@@ -64,10 +64,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
-        { /*<AdBanner slot="home-top" format="horizontal" label="Banner superior — Homepage" />}*/}
-      </div>
 
       {/* Rotas mais procuradas */}
       <section
@@ -112,6 +108,19 @@ export default function HomePage() {
             Ver todas as passagens
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </Link>
+        </div>
+      </section>
+      <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6" style={{display: 'none'}}>
+        { /*<AdBanner slot="home-top" format="horizontal" label="Banner superior — Homepage" />}*/}
+      </div>
+
+      <section>
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
+              Empresas recomendadas
+            </h2>
+          </div>
         </div>
       </section>
 
