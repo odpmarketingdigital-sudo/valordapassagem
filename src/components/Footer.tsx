@@ -84,7 +84,7 @@ export function Footer() {
                   Blog e dicas
                 </Link>
               </li>
-              {posts.map((post) => (
+              {posts.slice(0, 4).map((post) => (
                 <li key={post.slug}>
                   <Link
                     href={`/blog/${post.slug}`}
