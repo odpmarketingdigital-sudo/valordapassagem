@@ -111,7 +111,7 @@ export default function HomePage() {
         </div>
       </section>
       <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6" style={{display: 'none'}}>
-        { <AdBanner slot="home-top" format="horizontal" label="Banner superior — Homepage" /> } 
+        { <AdBanner slot="home-top" format="horizontal" label="Banner superior — Homepage" />}
       </div>
 
       <section>
