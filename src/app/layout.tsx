@@ -35,6 +35,22 @@ export default function RootLayout({
     <html lang="pt-BR" className={`${inter.variable} h-full`}>
       <head>
         <GoogleAnalytics />
+        <script
+          nowprocket=""
+          data-noptimize="1"
+          data-cfasync="false"
+          data-wpfc-render="false"
+          seraph-accel-crit="1"
+          data-no-defer="1"
+          dangerouslySetInnerHTML={{
+            __html: `(function () {
+    var script = document.createElement("script");
+    script.async = 1;
+    script.src = 'https://emrldtp.com/NTQwNTk4.js?t=540598';
+    document.head.appendChild(script);
+})();`,
+          }}
+        />
         <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
       </head>
       <body className="min-h-full flex flex-col antialiased">
