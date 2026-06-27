@@ -35,6 +35,7 @@ export default function RootLayout({
     <html lang="pt-BR" className={`${inter.variable} h-full`}>
       <head>
         <GoogleAnalytics />
+        /*travelpayouts script*/
         <script
           nowprocket=""
           data-noptimize="1"
